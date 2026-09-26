@@ -1,0 +1,12 @@
+[project]
+name = "airline-support-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "crewai[google-genai,litellm]>=1.15.22",
+    "groq>=1.7.0",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.3",
+]
