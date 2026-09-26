@@ -1,23 +1,25 @@
 # ✈️ Airline Agentic Support
-An agentic AI-powered airline customer support system built with CrewAI, featuring intelligent request triage, specialized support agents, tool calling, structured outputs, and guardrails for reliable responses.
+
+An agentic AI-powered airline customer support system built with **CrewAI**, featuring intelligent request triage, specialized support agents, tool calling, structured outputs, and guardrails for reliable responses.
 
 The system uses a triage agent to understand a customer's request and automatically routes it to a specialized agent that can use the appropriate tool to handle the request.
 
 ## How It Works
 
+```text
 Customer Request
        ↓
-  Triage Agent
+Triage Agent
        ↓
-  Request Category
+Request Category
        ↓
-     Router
+Router
        ↓
 Specialized Agent
        ↓
-      Tool
+Tool
        ↓
- Final Response
+Final Response
 -------------------------------------------------------------------------
 🤖 Agents
 
